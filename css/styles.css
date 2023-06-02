@@ -7,12 +7,37 @@ font-family: 'Roboto', sans-serif;
 color: #434455;
 background-color: #FFFFFF;
 }
+p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
 .link {
  text-decoration: none;
 }
  .list {
     list-style: none;
  }
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+} 
+
+
 .sektion-title {
 font-weight: 500;
     font-size: 36px;
@@ -36,7 +61,25 @@ font-weight: 500;
         color: var(--second-text-colorr);
 }
  /* ---------HEADER---------- */
-.header-logo {
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    overflow: auto;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
+}
+.header-soc {
+    display: flex;
+}
+.header-novigation {
+    display: flex;
+}
+.header-container {
+display: flex;
+}
+ .header-logo {
     font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -44,12 +87,16 @@ font-weight: 500;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
+        display: flex;
+        padding-right: 76px;
+
         }
 .logo-color {
 color: #2e2f42;
 }
 .header-novigation {
     list-style: none;
+margin: auto;
 }
 .header-menu-item {
 font-weight: 500;
@@ -67,11 +114,14 @@ font-weight: 500;
 .header-soc-link {
     letter-spacing: 0.02em;
     color: #434455;
+    padding-left: 40px;
 }
+.header-soc {
 
-
+}
 .header-address {
     font-style: normal;
+justify-content: space-between;
 }
 .header-soc-item {
     line-height: 1.5;
@@ -83,7 +133,11 @@ color: #404bbf;
 }
 /* ---------HERO---------- */
 .hero{
-    background: #2E2F42 ;
+  
+}
+.hero-container {
+background: #2E2F42;
+padding: 188px 472px 292px;
 }
 .hero-title {
     font-weight: 700;
@@ -92,6 +146,8 @@ color: #404bbf;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 .hero-btn {
     font-family: "Roboto",
