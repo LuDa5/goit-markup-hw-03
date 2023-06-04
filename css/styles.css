@@ -247,7 +247,7 @@ max-width: 162px;
 }
 .team-subtitle {
     display: flex;
-    margin-top: 32px;
+     margin-top: 32px;  
     margin-bottom: 8px;
     justify-content: center;
         align-items: center;
