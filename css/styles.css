@@ -289,7 +289,7 @@ border-radius: 0px 0px 4px 4px;
 .location-list {
     display: flex;
    gap: 24px;
-    row-gap: 48px;
+    /* row-gap: 48px; */
     justify-content: center;
         align-items: center;
         margin-bottom: 72px;
