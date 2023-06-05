@@ -121,13 +121,14 @@ font-weight: 500;
     letter-spacing: 0.02em;
     color:var(--main-text-color);
     gap: 40px;
-    padding: 24px 0;
+   
 }
 .header-menu-link:is(:hover, :focus) {
     color: #404bbf;
 }
 .header-menu-link  {
     color: #2e2f42;
+    padding: 24px 0;
 }
 .header-soc-link {
     letter-spacing: 0.02em;
@@ -194,10 +195,10 @@ background: #2E2F42;
 background-color: #404BBF
 }
 
-/* ---------ADVENTAGES2---------- */
+/* ---------ADVENTAGES2----------
 .visually-hidden {
 
-}
+} */
 .adventages{
     padding: 120px 0;
 }
@@ -328,17 +329,17 @@ flex-wrap: wrap;
 column-gap: 24px;
 row-gap: 48px;
 }
-.directions-ittem {
+.directions-item {
 width: calc((100% - 48px) / 3);
 }
 .directions-img {
-   display: flex;
-        flex-wrap: wrap;
+  /* display: flex; */
+        /* flex-wrap: wrap; */
         column-gap: 24px;
             row-gap: 48px;
          gap: 48px 24px;
-    /* padding: 32px 16px; */
-     /* border: 1px solid #e7e9fc;  */
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
     border-top: none;
      
 }
