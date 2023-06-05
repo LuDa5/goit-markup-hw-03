@@ -120,7 +120,8 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--main-text-color);
-    gap: 40px
+    gap: 40px;
+    padding: 24px 0;
 }
 .header-menu-link:is(:hover, :focus) {
     color: #404bbf;
@@ -145,6 +146,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--second-text-colorr);
+    padding: 24px 0;
 }
 .header-soc-link:is(:hover, :focus) {
 color: #404bbf;
@@ -272,7 +274,7 @@ background-color: #FFFFFF;
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
-.class-employees {
+.employees {
     padding: 32px 16px;
 }
 
@@ -285,7 +287,8 @@ border-radius: 0px 0px 4px 4px;
 
 .location-list {
     display: flex;
-    gap: 24px;
+   gap: 24px;
+    row-gap: 48px;
     justify-content: center;
         align-items: center;
         margin-bottom: 72px;
@@ -320,10 +323,10 @@ border-radius: 4px;
 
 /*------------ DIRECTIONS -----------*/
 .directions-list {
-/* display: flex;
+display: flex;
 flex-wrap: wrap;
 column-gap: 24px;
-row-gap: 48px; */
+row-gap: 48px;
 }
 .directions-ittem {
 width: calc((100% - 48px) / 3);
